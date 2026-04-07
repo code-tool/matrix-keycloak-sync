@@ -1,0 +1,11 @@
+database:
+  connect_timeout: 30
+  database: <MAS_DB_NAME>
+  host: <MAS_DB_HOST>
+  idle_timeout: 600
+  max_connections: 10
+  max_lifetime: 1800
+  min_connections: 0
+  password: <MAS_DB_PASSWORD>
+  port: <MAS_DB_PORT>
+  username: <MAS_DB_USER>
