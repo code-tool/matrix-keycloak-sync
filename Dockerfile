@@ -1,6 +1,6 @@
 FROM ghcr.io/element-hq/matrix-authentication-service:1.14.0 AS mas-cli
 
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 
 RUN apt update && \
     apt install curl jq -y
