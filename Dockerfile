@@ -1,4 +1,4 @@
-FROM ghcr.io/element-hq/matrix-authentication-service:1.10.0 AS mas-cli
+FROM ghcr.io/element-hq/matrix-authentication-service:1.14.0 AS mas-cli
 
 FROM debian:bookworm-slim
 
